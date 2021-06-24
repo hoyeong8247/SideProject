@@ -74,4 +74,15 @@ table {
 	text-align: center;
 	font-weight: bold;
 	font-size: 50px;
+	background-color: #6A63F0;
+}
+
+.content .content_left{
+	width: 50%;
+	float: left;
+}
+
+.content .content_right{
+	width: 50%;
+ float: right;
 }
