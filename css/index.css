@@ -1,4 +1,3 @@
-@charset "UTF-8";
 
 html, body {
   height: 100%;
@@ -23,7 +22,7 @@ a {
 #content {
   height: 100%;
 }
-
+/*header영역*/
 .header {
   text-align: center;
   font-weight: bold;
@@ -43,7 +42,7 @@ a {
 .header p {
   line-height: 30px;
 }
-
+/* 컨텐츠영역 */
 .content {
   height: 100%;
 }
@@ -69,7 +68,7 @@ a {
   vertical-align: middle;
   color: #fff;
   border-right: 1px solid #fff;
-  ;
+
 }
 
 .content_wrap .content_right {
@@ -78,5 +77,33 @@ a {
   vertical-align: middle;
   color: #fff;
   border-left: 1px solid #fff;
-  ;
+
+}
+
+/* 미디어 쿼리 */
+/* Desktop First */
+/* PC (해상도 1024px)*/
+@media all and (min-width:1024px) {}
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px) {}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
+@media all and (max-width:767px) {
+  /* 컨텐츠영역 */
+  .content {
+    height: 100%;
+  }
+
+  .content_wrap {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #819FF7;
+  }
+
 }
