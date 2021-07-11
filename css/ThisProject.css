@@ -85,6 +85,8 @@ html, body {
   .content {
     text-align: center;
     color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .content .content_prablem {}
@@ -120,6 +122,8 @@ html, body {
   .content {
     text-align: center;
     color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .content .content_prablem {}
