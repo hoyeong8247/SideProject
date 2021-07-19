@@ -5,8 +5,6 @@
 
 #header {
   width: 100%;
-  background-color: #000;
-  height: 100px;
 }
 
 #content {}
@@ -18,11 +16,51 @@
 /* header 영역  */
 .header {}
 
-.header h1 {
-  line-height: 100px;
-  font-size: 50px;
-  color: #fff;
+.header_top {
+  line-height: 45px;
+  font-size: 1em;
+  color: #d1d1df;
   text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  height: 50px;
+}
+
+.header .header_top .nav-left {
+  float: left;
+}
+
+.header .header_top .nav-middle {
+  margin: 0 auto;
+}
+
+.header .header_top .nav-middle .nav-search {}
+
+.header .header_top .nav-middle .nav-search form .search-text {
+  width: 600px;
+  height: 30px;
+}
+
+.header .header_top .nav-middle .nav-search form .nav-search-button .search-button {}
+
+.header .header_top .nav-middle .nav-search form .search-button {
+  background: url(../img/nav-search.png);
+  background-repeat : no-repeat;
+  width: 40px;
+  height: 40px;
+  border: 0;
+}
+
+.header .header_top .nav-right {
+  float: right;
+}
+
+.header .header_bottom {
+  font-size: 1em;
+  height: 45px;
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+  text-align: center;
+  line-height: 45px;
 }
 
 /* content 영역 */
