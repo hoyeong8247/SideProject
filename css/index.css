@@ -14,70 +14,47 @@ a {
 
 #header {
   width: 100%;
-  height: 250px;
+  height: 100px;
   background-color: #5882FA;
 }
 
 #content {
-  height: 100%;
+height: 100px;
 }
 
 /*header영역*/
 .header {
-  text-align: center;
   font-weight: bold;
   color: #FBFCFD;
   padding: 30px;
+  margin-bottom: 0px;
 }
 
-.header h1 {
-  font-size: 40px;
-  margin-bottom: 20px;
+.header .header_container{
 }
 
-.header strong {
-  line-height: 30px;
+.header .header .header_container h1 {
+  display: inline-block;
+  font-size: 35px;
+  text-align: left;
 }
 
-.header p {
-  line-height: 30px;
+.header .header_container .header_nav .header_menu{
+float:right;
+}
+
+.header .header_container .header_nav .header_menu ul li{
+  display:inline-block;
+  margin-left: 15px;
 }
 
 /* 컨텐츠영역 */
 .content {
-  height: 100%;
+
 }
 
-.content_wrap {
-  display: table;
-  table-layout: fixed;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  font-weight: bold;
-  font-size: 50px;
-  background-color: #819FF7;
-}
 
-.content_wrap a {
-  color: #fff;
-}
 
-.content_wrap .content_left {
-  display: table-cell;
-  height: 100%;
-  vertical-align: middle;
-  color: #fff;
-  border-right: 1px solid #fff;
-}
-
-.content_wrap .content_right {
-  display: table-cell;
-  height: 100%;
-  vertical-align: middle;
-  color: #fff;
-  border-left: 1px solid #fff;
-}
 
 /* 미디어 쿼리 */
 /* Desktop First */
@@ -91,84 +68,10 @@ a {
 @media all and (min-width:321px) and (max-width:767px) {
 
   /*header영역*/
-  .header {
-    text-align: center;
-    font-weight: bold;
-    color: #FBFCFD;
-    padding: 30px;
-  }
-
-  .header h1 {
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-
-  .header strong {
-    line-height: 30px;
-
-  }
-
-  .header p {
-    line-height: 30px;
-  }
-
-  /* 컨텐츠영역 */
-  .content {
-    height: 100%;
-  }
-
-  .content_wrap {
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    background-color: #819FF7;
-  }
 }
 
 /* 스마트폰 세로 */
 @media only screen and (max-width : 320px) {
 
   /*header영역*/
-  .header {
-    text-align: center;
-    font-weight: bold;
-    color: #FBFCFD;
-    padding: 30px;
-  }
-
-  .header h1 {
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-
-  .header strong {
-    line-height: 30px;
-    font-size: 12px;
-  }
-
-  .header p {
-    line-height: 30px;
-    font-size: 12px;
-  }
-
-  /* 컨텐츠영역 */
-  .content {
-    height: 100%;
-  }
-
-  .content_wrap {
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    background-color: #819FF7;
-  }
-}
 }
