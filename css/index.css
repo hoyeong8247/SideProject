@@ -15,7 +15,7 @@ a {
 #header {
   width: 100%;
   height: 100px;
-  background-color: #5882FA;
+
 }
 
 #content {
@@ -25,7 +25,6 @@ height: 100px;
 /*header영역*/
 .header {
   font-weight: bold;
-  color: #FBFCFD;
   padding: 30px;
   margin-bottom: 0px;
 }
@@ -50,10 +49,32 @@ float:right;
 
 /* 컨텐츠영역 */
 .content {
-
 }
 
+.content .content_wrap{}
 
+.content .content_wrap .content_overlay{
+  width: 100%;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  opacity:0.75;
+  background-color: #000;
+  height: 280px;
+}
+
+.content .content_wrap .content_overlay h1{
+  padding-top: 100px;
+  color: #fff;
+  font-size: 28pt;
+  font-weight: 750;
+}
+
+.content .content_wrap .content_overlay h2{
+  font-size: 14pt;
+  color: #fff;
+  font-weight: 400;
+  padding-top: 35px;
+}
 
 
 /* 미디어 쿼리 */
