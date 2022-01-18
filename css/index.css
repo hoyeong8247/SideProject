@@ -24,28 +24,34 @@ height: 100px;
 
 /*header영역*/
 .header {
-  font-weight: bold;
+
   padding: 30px;
   margin-bottom: 0px;
 }
 
 .header .header_container{
+  overflow:
+
 }
 
-.header .header .header_container h1 {
+.header .header_container h1 {
   display: inline-block;
-  font-size: 35px;
-  text-align: left;
+  letter-spacing: 5PX;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.header .header_container .header_nav{
+  display: inline-block;
+  float: right;
+  line-height: 40px;
 }
 
 .header .header_container .header_nav .header_menu{
-float:right;
+
 }
 
-.header .header_container .header_nav .header_menu ul li{
-  display:inline-block;
-  margin-left: 15px;
-}
 
 /* 컨텐츠영역 */
 .content {
@@ -62,20 +68,30 @@ float:right;
   height: 280px;
 }
 
-.content .content_wrap .content_overlay h1{
-  padding-top: 100px;
-  color: #fff;
-  font-size: 28pt;
-  font-weight: 750;
-}
+.content .content_wrap .content_overlay .content_nav{
+line-height: 280px;
 
-.content .content_wrap .content_overlay h2{
-  font-size: 14pt;
-  color: #fff;
-  font-weight: 400;
-  padding-top: 35px;
 }
+.content .content_wrap .content_overlay .content_nav ul{
+text-align: center;
+margin: 0 auto;
 
+}
+.content .content_wrap .content_overlay .content_nav ul li{
+  padding-left: 120px;
+  padding-right: 120px;
+  display: inline-block;
+  color: #fff;
+  font-size: 20pt;
+  font-weight: 700;
+}
+.content .content_wrap .content_overlay .content_nav ul li{
+}
+.content .content_wrap .content_main{
+  padding: 30px;
+  width: 50%;
+  margin: 0 auto;
+}
 
 /* 미디어 쿼리 */
 /* Desktop First */
