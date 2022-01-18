@@ -15,7 +15,7 @@ a {
 #header {
   width: 100%;
   height: 100px;
-  background-color: #5882FA;
+
 }
 
 #content {
@@ -24,37 +24,74 @@ height: 100px;
 
 /*header영역*/
 .header {
-  font-weight: bold;
-  color: #FBFCFD;
+
   padding: 30px;
   margin-bottom: 0px;
 }
 
 .header .header_container{
+  overflow:
+
 }
 
-.header .header .header_container h1 {
+.header .header_container h1 {
   display: inline-block;
-  font-size: 35px;
-  text-align: left;
+  letter-spacing: 5PX;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.header .header_container .header_nav{
+  display: inline-block;
+  float: right;
+  line-height: 40px;
 }
 
 .header .header_container .header_nav .header_menu{
-float:right;
+
 }
 
-.header .header_container .header_nav .header_menu ul li{
-  display:inline-block;
-  margin-left: 15px;
-}
 
 /* 컨텐츠영역 */
 .content {
-
 }
 
+.content .content_wrap{}
 
+.content .content_wrap .content_overlay{
+  width: 100%;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  opacity:0.75;
+  background-color: #000;
+  height: 280px;
+}
 
+.content .content_wrap .content_overlay .content_nav{
+line-height: 280px;
+
+}
+.content .content_wrap .content_overlay .content_nav ul{
+text-align: center;
+margin: 0 auto;
+
+}
+.content .content_wrap .content_overlay .content_nav ul li{
+  padding-left: 120px;
+  padding-right: 120px;
+  display: inline-block;
+  color: #fff;
+  font-size: 20pt;
+  font-weight: 700;
+}
+.content .content_wrap .content_overlay .content_nav ul li{
+}
+.content .content_wrap .content_main{
+  padding: 30px;
+  width: 50%;
+  margin: 0 auto;
+}
 
 /* 미디어 쿼리 */
 /* Desktop First */
