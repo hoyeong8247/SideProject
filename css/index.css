@@ -15,23 +15,20 @@ a {
 #header {
   width: 100%;
   height: 100px;
-
 }
 
 #content {
-height: 100px;
+  height: 100px;
 }
 
 /*header영역*/
 .header {
-
   padding: 30px;
   margin-bottom: 0px;
 }
 
-.header .header_container{
+.header .header_container {
   overflow:
-
 }
 
 .header .header_container h1 {
@@ -42,23 +39,20 @@ height: 100px;
   line-height: 25px;
 }
 
-.header .header_container .header_nav{
+.header .header_container .header_nav {
   display: inline-block;
   float: right;
   line-height: 40px;
 }
 
-.header .header_container .header_nav .header_menu{
-
-}
-
+.header .header_container .header_nav .header_menu {}
 
 /* 컨텐츠영역 */
-.content {
-}
+.content {}
 
-.content .content_wrap{}
+.content .content_wrap {}
 
+/*
 .content .content_wrap .content_overlay{
   width: 100%;
   text-align: center;
@@ -70,8 +64,8 @@ height: 100px;
 
 .content .content_wrap .content_overlay .content_nav{
 line-height: 280px;
-
 }
+
 .content .content_wrap .content_overlay .content_nav ul{
 text-align: center;
 margin: 0 auto;
@@ -85,12 +79,83 @@ margin: 0 auto;
   font-size: 20pt;
   font-weight: 700;
 }
-.content .content_wrap .content_overlay .content_nav ul li{
-}
+
 .content .content_wrap .content_main{
   padding: 30px;
   width: 50%;
   margin: 0 auto;
+}
+
+*/
+/*div변경과 관련된 코드입니다.
+색 등의 디자인은 보이기 위해서 표시해놨으니
+스타일 추가 및 변경이 가능합니다.*/
+.content_nav input[type=radio] {
+  display: none;
+}
+
+#tab-1:checked~.tab label:nth-child(1),
+#tab-2:checked~.tab label:nth-child(2),
+#tab-3:checked~.tab label:nth-child(3) {
+  background-color: none;
+  box-shadow: none;
+  text-decoration: underline;
+  text-underline-position: under;
+  color: #50B748;
+}
+
+.content_main>div {
+  display: none;
+}
+
+#tab-1:checked~.content_main div:nth-child(1),
+#tab-2:checked~.content_main div:nth-child(2),
+#tab-3:checked~.content_main div:nth-child(3) {
+  display: block;
+
+}
+
+.content_nav {
+  margin: 0 auto;
+  max-width: 100%;
+
+}
+
+.tab {
+  overflow: hidden;
+  background-color: #000;
+  height: 280px;
+  line-height: 280px;
+  opacity:0.75;
+}
+
+.tab label {
+  font-size: 18pt;
+  cursor: pointer;
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding:0 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  user-select: none;
+  -webkit-user-select: none;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.content_main {
+
+  min-height: 250px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.content_main>div {
+  padding: 50px;
+  line-height: 1.5;
+  font-size: 15pt;
 }
 
 /* 미디어 쿼리 */
@@ -103,12 +168,10 @@ margin: 0 auto;
 
 /* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
 @media all and (min-width:321px) and (max-width:767px) {
-
   /*header영역*/
 }
 
 /* 스마트폰 세로 */
 @media only screen and (max-width : 320px) {
-
   /*header영역*/
 }
