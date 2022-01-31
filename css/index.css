@@ -112,13 +112,11 @@ margin: 0 auto;
 #tab-2:checked~.content_main div:nth-child(2),
 #tab-3:checked~.content_main div:nth-child(3) {
   display: block;
-
 }
 
 .content_nav {
   margin: 0 auto;
   max-width: 100%;
-
 }
 
 .tab {
@@ -126,7 +124,7 @@ margin: 0 auto;
   background-color: #000;
   height: 280px;
   line-height: 280px;
-  opacity:0.75;
+  opacity: 0.75;
 }
 
 .tab label {
@@ -135,7 +133,7 @@ margin: 0 auto;
   float: left;
   width: 33%;
   text-align: center;
-  padding:0 0;
+  padding: 0 0;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
@@ -146,7 +144,6 @@ margin: 0 auto;
 }
 
 .content_main {
-
   min-height: 250px;
   width: 50%;
   margin: 0 auto;
@@ -157,6 +154,16 @@ margin: 0 auto;
   line-height: 1.5;
   font-size: 15pt;
 }
+
+.content_main div p{
+ margin: 20px 0px 20px 0px;
+
+}
+
+strong {
+  font-weight: bold;
+}
+
 
 /* 미디어 쿼리 */
 /* Desktop First */
