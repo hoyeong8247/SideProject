@@ -251,11 +251,10 @@ strong {
   .content_main>div {
     padding: 50px;
     line-height: 1.5;
-    font-size: 15pt;
+    font-size: 8pt;
   }
 
   .content_main div p{
    margin: 20px 0px 20px 0px;
-
   }
 }
