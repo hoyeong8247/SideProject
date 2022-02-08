@@ -126,7 +126,7 @@ strong {
   font-weight: bold;
 }
 
-.content .content_main p img{
+.content .content_main .content-dis img{
   display: block;
   margin: 40px auto;
 }
