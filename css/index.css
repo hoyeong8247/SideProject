@@ -126,6 +126,11 @@ strong {
   font-weight: bold;
 }
 
+.content .content_main p img{
+  display: block;
+  margin: 40px auto;
+}
+
 
 /* 미디어 쿼리 */
 /* Desktop First */
